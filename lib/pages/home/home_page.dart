@@ -29,45 +29,47 @@ class HomePage extends StatelessWidget {
         backgroundColor: ColorManager.lightDarkColor,
         elevation: 0,
       ):null,
-      body: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: [
-          /// Side menu
-          if (AppResponsive.isDesktop(context))
+      body: SafeArea(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            /// Side menu
+            if (AppResponsive.isDesktop(context))
+              const Expanded(
+                flex: 2,
+                child: SideMenuWidget(),
+              ),
+
+            if (!AppResponsive.isDesktop(context) && AppResponsive.isTablet(context))
+              Container(
+                width: AppResponsive.isDesktop(context) ? 0 : 50,
+                decoration: BoxDecoration(
+                  color: ColorManager.darkColor,
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
+                child: Column(
+                  children: [
+                    if(!AppResponsive.isDesktop(context) || AppResponsive.isTablet(context))
+                      const SizedBox(height: 25),
+                    IconButton(
+                      onPressed: () {
+                        controlMenu();
+                      },
+                      icon: const Icon(Icons.menu, color: ColorManager.white),
+                    ),
+                    const Expanded(child: HeaderBarVertical()),
+                  ],
+                ),
+              ),
+
+            /// Main content
             const Expanded(
-              flex: 2,
-              child: SideMenuWidget(),
-            ),
-
-          if (!AppResponsive.isDesktop(context) && AppResponsive.isTablet(context))
-            Container(
-              width: AppResponsive.isDesktop(context) ? 0 : 50,
-              decoration: BoxDecoration(
-                color: ColorManager.darkColor,
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              child: Column(
-                children: [
-                  if(!AppResponsive.isDesktop(context) || AppResponsive.isTablet(context))
-                    const SizedBox(height: 25),
-                  IconButton(
-                    onPressed: () {
-                      controlMenu();
-                    },
-                    icon: const Icon(Icons.menu, color: ColorManager.white),
-                  ),
-                  const Expanded(child: HeaderBarVertical()),
-                ],
-              ),
-            ),
-
-          /// Main content
-          const Expanded(
-            flex: 9,
-            child: DashboardBody(),
-          )
-        ],
+              flex: 9,
+              child: DashboardBody(),
+            )
+          ],
+        ),
       ),
     );
   }

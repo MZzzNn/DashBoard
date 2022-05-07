@@ -1,16 +1,18 @@
-# flutter_web
+# Dashboard
 
-A new Flutter project.
+Responsive Dashboard adapts your UI to different screen sizes automatically. 
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Awesome UI
+- Responsive design for all devices
+- [Live Preview](https://mazen-mo7amed.github.io/host_dashboard/#/)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## ✌ PPreview:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|   Device   |                                    Preview                                    |                                    Preview                                     |                             Preview                              |
+|:----------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:----------------------------------------------------------------:|
+|  **Web**   | <img src="E:\flutter projects\flutter_web\screenshot\web1.png" title="web1"/> | <img  src="E:\flutter projects\flutter_web\screenshot\web2.png" title="web2"/> | <img src="E:\flutter projects\flutter_web\screenshot\web3.png"/> |
+| **Mobile** |       <img src="E:\flutter projects\flutter_web\screenshot\mob1.png" />       |        <img src="E:\flutter projects\flutter_web\screenshot\mob2.png"/>        |                                                                  
+
