@@ -11,8 +11,8 @@ Responsive Dashboard adapts your UI to different screen sizes automatically.
 
 ## ✌ PPreview:
 
-|   Device   |                                    Preview                                    |                                    Preview                                     |                             Preview                              |
-|:----------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:----------------------------------------------------------------:|
-|  **Web**   | <img src="E:\flutter projects\flutter_web\screenshot\web1.png" title="web1"/> | <img  src="E:\flutter projects\flutter_web\screenshot\web2.png" title="web2"/> | <img src="E:\flutter projects\flutter_web\screenshot\web3.png"/> |
-| **Mobile** |       <img src="E:\flutter projects\flutter_web\screenshot\mob1.png" />       |        <img src="E:\flutter projects\flutter_web\screenshot\mob2.png"/>        |                                                                  
+|   Device   |                    Preview                    |                    Preview                    |             Preview              |
+|:----------:|:---------------------------------------------:|:---------------------------------------------:|:--------------------------------:|
+|  **Web**   | <img src="screenshot\web1.png" title="web1"/> | <img src="screenshot\web2.png" title="web2"/> | <img src="screenshot\web3.png"/> |
+| **Mobile** |       <img src="screenshot/mob1.png" />       |       <img src="screenshot\mob2.png"/>        |                                                                  
 
