@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/shared/app_responsive/app_responsive.dart';
-import 'package:flutter_web/shared/components/components.dart';
-import 'package:flutter_web/shared/style/color.dart';
+import '../../../shared/app_responsive/app_responsive.dart';
+import '../../../shared/components/components.dart';
+import '../../../shared/style/color.dart';
 import 'package:intl/intl.dart';
 import 'package:table_calendar/table_calendar.dart';
 

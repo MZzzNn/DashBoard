@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/shared/style/color.dart';
+import '../../../shared/style/color.dart';
 import '../../../model/list_item_model.dart';
 import '../../../shared/components/components.dart';
 

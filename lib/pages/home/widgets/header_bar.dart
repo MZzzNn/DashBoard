@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/shared/style/color.dart';
+import '../../../shared/style/color.dart';
 import 'dart:math'as math;
 import '../../../shared/components/components.dart';
 

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/pages/home/widgets/dashboard_body.dart';
-import 'package:flutter_web/pages/home/widgets/header_bar.dart';
-import 'package:flutter_web/pages/home/widgets/side_menu_widget.dart';
-import 'package:flutter_web/shared/style/color.dart';
-
+import 'widgets/dashboard_body.dart';
+import 'widgets/header_bar.dart';
+import 'widgets/side_menu_widget.dart';
+import '../../shared/style/color.dart';
 import '../../shared/app_responsive/app_responsive.dart';
 
 class HomePage extends StatelessWidget {

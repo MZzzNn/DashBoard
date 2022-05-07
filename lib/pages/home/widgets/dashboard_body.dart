@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/pages/home/widgets/body_content.dart';
-import 'package:flutter_web/shared/app_responsive/app_responsive.dart';
-import 'package:flutter_web/shared/style/color.dart';
+import 'body_content.dart';
+import '../../../shared/app_responsive/app_responsive.dart';
+import '../../../shared/style/color.dart';
 import 'header_bar.dart';
 import 'notification_content.dart';
 
@@ -28,6 +28,7 @@ class DashboardBody extends StatelessWidget {
                   flex: 11,
                   child: BodyContent(),
                 ),
+
                 if (AppResponsive.isDesktop(context))
                   const SizedBox(width: 20),
 

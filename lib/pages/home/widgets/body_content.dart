@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:flutter_web/shared/app_responsive/app_responsive.dart';
+import '../../../shared/app_responsive/app_responsive.dart';
 import '../../../shared/components/components.dart';
 import '../../../shared/style/color.dart';
 import 'notification_content.dart';

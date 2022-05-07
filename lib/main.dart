@@ -1,8 +1,7 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_web/pages/home/home_page.dart';
-import 'package:flutter_web/shared/style/color.dart';
+import 'pages/home/home_page.dart';
+import 'shared/style/color.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
