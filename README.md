@@ -9,7 +9,7 @@ Responsive Dashboard adapts your UI to different screen sizes automatically.
 - [Live Preview](https://mazen-mo7amed.github.io/host_dashboard/#/)
 
 
-## ✌ PPreview:
+## ✌ Preview:
 
 |   Device   |                    Preview                    |                    Preview                    |
 |:----------:|:---------------------------------------------:|:---------------------------------------------:|
